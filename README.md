@@ -3,7 +3,7 @@ Project-1
 
 
 
-###Authors###
+### Author
 
 * Juan
 * Lyhn
