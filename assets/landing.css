@@ -10,6 +10,7 @@ img {
     position: absolute;
     z-index: -7;
     background-size: cover;
+
 }
 
 .login-box {
@@ -29,7 +30,8 @@ img {
     margin-bottom: 30px;
     font-weight: 500px;
     text-transform: uppercase;
-    margin-left: 27px;
+    margin-left: 29px;
+    
 }
 
 .textbox {
@@ -37,7 +39,7 @@ img {
 }
 
 .textbox input {
-    border: 2px solid green;
+    border: 2px solid whitesmoke;
     border-radius: 8px;
     background: none;
     margin: auto;
@@ -46,26 +48,43 @@ img {
     outline: none;
     color: whitesmoke;
     font-size: 15px;
-    margin-left: 35px;
+    margin-left: 37px;
 }
 
 .textbox input:focus {
     width: 250px;
-    border-color: lightblue;
+    border-color: lightgreen;
 }
 
 .btn {
     margin-top: 25px;
-    border: 2px solid lightgreen;
+    border: 2px solid #b3ffb3;
     color:  black;
-    background-color: lightgreen;
+    background-color: #b3ffb3;
     border-radius: 7px;
     width: 100px;
-    height: 30%;
+    height: 40%;
     outline: none;
     margin-left: 35px;
+    transition: 2s;
 }
 
 .btn:hover {
     background-color: lightblue;
+    width: 200px;
+}
+
+
+body {
+    background-color: lightgray;
+    z-index: 99;
+    opacity: 0.8 ;
+}
+
+input::placeholder {
+    color: whitesmoke;
+    font-weight: bolder;
+    font-size: 19px;
+    letter-spacing: 3px;
+    opacity: 0.9;
 }
